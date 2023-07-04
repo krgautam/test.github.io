@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<title>Static test server </title>
+		<script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+	</head>
+	<body>
+		<h1 class="bg-green-500"> Static files testing server</h1>
+		<p> testing how token stepwise tracking works </p>
+		<form action="/post">
+			<input type="hidden" name="permissionize_token" />
+			<input type="hidden" name="universal_leadid" value="123123123" />
+			<div class="border-1 m-10 border p-10" id="step1">
+				<span permissible class="pl-5">Enter your full info</span>
+				<div class="p-5">
+					Name: 
+					<input class="border border-rounded">
+				</div>
+				<div class="pt-5 pb-5">
+					Email: 
+					<input class="border border-rounded">
+				</div>
+				<div class="rounded-lg border-1 border border-black p-5 w-1/5 m-5">
+					<a href="#" id="next1" class="p-2">Next</a>
+				</div>
+				
+			</div>
+			<div class="border-1 m-10 border p-10" id="step2">
+				<span permissible class="pl-5">I agree to have LF Media process my data</span>
+				<div class="p-5">
+					Something else: 
+					<input class="border border-rounded">
+				</div>
+				<div class="rounded-lg border-1 border border-black p-5 w-1/5 m-5">
+					<a permissionize href="#" id="submit" class="p-2">submit</a>
+				</div>
+			</div>
+		</form>
+		<script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+		<script src="http://perm.gain250.com/token/api/campaigns/js/649ada5087d58ed35682247d" ></script>
+		<script>
+			$(document).ready(function(){
+				$("#step2").hide()
+				$("#next1").click(function(e){
+					$("#step1").hide()
+					$("#step2").show()
+				})
+			})
+		</script>
+	</body>
+</html>
+
