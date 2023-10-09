@@ -1,0 +1,2067 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>govapplication-lfv.com Privacy Policy</title>
+    <meta charset="utf-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="none" name="msapplication-config" />
+    <meta content="false" name="isSSL" />
+    <style type="text/css">
+      .noUi-target,
+      .noUi-target * {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -ms-touch-action: none;
+        touch-action: none;
+        -ms-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+      .noUi-target {
+        position: relative;
+        direction: ltr;
+        background: #7dbed8;
+        border: 1px solid #000;
+      }
+      .noUi-base {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: 1;
+      }
+      .noUi-connect {
+        position: absolute;
+        right: 0;
+        top: 0;
+        left: 0;
+        bottom: 0;
+      }
+      .noUi-origin {
+        position: absolute;
+        height: 0;
+        width: 0;
+      }
+      .noUi-state-tap .noUi-connect,
+      .noUi-state-tap .noUi-origin {
+        -webkit-transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+        transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+      }
+      .noUi-state-drag * {
+        cursor: inherit !important;
+      }
+      .noUi-base,
+      .noUi-handle {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+      }
+      .noUi-horizontal {
+        height: 18px;
+      }
+      .noUi-horizontal .noUi-handle {
+        top: -6px;
+      }
+      .noUi-vertical {
+        width: 18px;
+      }
+      .noUi-vertical .noUi-handle {
+        height: 15px;
+        left: -6px;
+        top: -17px;
+      }
+      .noUi-connect {
+        background: #6295d5;
+        box-shadow: inset 0 0 3px rgba(51, 51, 51, 0.3);
+        -webkit-transition: background 450ms;
+        transition: background 450ms;
+      }
+      .noUi-draggable {
+        cursor: w-resize;
+      }
+      .noUi-vertical .noUi-draggable {
+        cursor: n-resize;
+      }
+      .noUi-handle {
+        position: relative;
+        z-index: 1;
+        border: 1px solid #000;
+        border-radius: 5px;
+        background: #187eaf;
+        cursor: default;
+        width: 25px;
+        margin-left: 10px;
+        height: 45px;
+      }
+      .noUi-active {
+        box-shadow: inset 0 0 1px #fff, inset 0 1px 7px #ddd,
+          0 3px 6px -3px #bbb;
+      }
+      .noUi-handle:after,
+      .noUi-handle:before {
+        content: "";
+        display: block;
+        position: absolute;
+        height: 14px;
+        width: 1px;
+        left: 14px;
+        top: 6px;
+      }
+      .noUi-handle:after {
+        left: 17px;
+      }
+      .noUi-vertical .noUi-handle:after,
+      .noUi-vertical .noUi-handle:before {
+        width: 14px;
+        height: 1px;
+        left: 6px;
+        top: 14px;
+      }
+      .noUi-vertical .noUi-handle:after {
+        top: 17px;
+      }
+      [disabled] .noUi-connect {
+        background: #b8b8b8;
+      }
+      [disabled] .noUi-handle,
+      [disabled].noUi-handle,
+      [disabled].noUi-target {
+        cursor: not-allowed;
+      }
+      .noUi-pips,
+      .noUi-pips * {
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+      .noUi-pips {
+        position: absolute;
+        color: #999;
+      }
+      .noUi-value {
+        position: absolute;
+        text-align: center;
+      }
+      .noUi-value-sub {
+        color: #ccc;
+        font-size: 10px;
+      }
+      .noUi-marker {
+        position: absolute;
+        background: #ccc;
+      }
+      .noUi-marker-large,
+      .noUi-marker-sub {
+        background: #aaa;
+      }
+      .noUi-pips-horizontal {
+        padding: 10px 0;
+        height: 80px;
+        top: 100%;
+        left: 0;
+        width: 100%;
+      }
+      .noUi-value-horizontal {
+        -webkit-transform: translate3d(-50%, 50%, 0);
+        transform: translate3d(-50%, 50%, 0);
+      }
+      .noUi-marker-horizontal.noUi-marker {
+        margin-left: -1px;
+        width: 2px;
+        height: 5px;
+      }
+      .noUi-marker-horizontal.noUi-marker-sub {
+        height: 10px;
+      }
+      .noUi-marker-horizontal.noUi-marker-large {
+        height: 15px;
+      }
+      .noUi-pips-vertical {
+        padding: 0 10px;
+        height: 100%;
+        top: 0;
+        left: 100%;
+      }
+      .noUi-value-vertical {
+        -webkit-transform: translate3d(0, 50%, 0);
+        transform: translate3d(0, 50%, 0);
+        padding-left: 25px;
+      }
+      .noUi-marker-vertical.noUi-marker {
+        width: 5px;
+        height: 2px;
+        margin-top: -1px;
+      }
+      .noUi-marker-vertical.noUi-marker-sub {
+        width: 10px;
+      }
+      .noUi-marker-vertical.noUi-marker-large {
+        width: 15px;
+      }
+      .noUi-tooltip {
+        display: block;
+        position: absolute;
+        border: 1px solid #d9d9d9;
+        border-radius: 3px;
+        background: #fff;
+        color: #000;
+        padding: 5px;
+        text-align: center;
+      }
+      #privacy,
+      .bgfeatured,
+      .bgspacer,
+      .d-header2,
+      .step {
+        display: none;
+      }
+      .d-header,
+      .d-header2 {
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+      }
+      a,
+      a:visited {
+        color: #428bca;
+      }
+      .noUi-horizontal .noUi-tooltip {
+        -webkit-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+        left: 50%;
+        bottom: 120%;
+      }
+      .noUi-vertical .noUi-tooltip {
+        -webkit-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+        top: 50%;
+        right: 120%;
+      }
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+      }
+      body {
+        min-width: 320px;
+      }
+      a {
+        text-decoration: none;
+      }
+      @media only screen and (max-width: 560px) {
+        .d-header3 {
+          background-image: url(data:image/jpeg;base64,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dNjZbW7FvOXv3hWMLuCRFfNMf+8Tg5r9L3RJFKOoZWGCCMgg+tcn4w8HWfjDwzP4Ya8u9HjlMbJcadL9muIXjcOrRsAQORyCCCMgiu7+0L1HNrrffzX32t5dOxwrL7U1BP7Nttdnrfpe/n17n58+K9Y+Eut+KviJdfCOC1jsE+Hl8lxJZQfZ7Z5fOj27VCoCypgMwHop5U123xJ03wN4Ak+GHh6y0rQvDmni0u7tdT1a2luLOOfyIUcGCN40muZAFPmTkn5RtO6vqzwj8LoPDfim88batruoeJNcu7VLFbi/MCiC2Rt5jijt4oUXe2Gc4JJAPrn06SKKYBZUVwCCAwBwR0PNE8ao8qjdpef+LyX83bpbVCjg3K8pWTfl/h832/G+jPy08CW3h/xP4R0nwrqBg1Szb4oK0lt9mNpE1rcW8jxEWjf6mGXaxWM8AZU55rtPEHw78CJD+0bcjw7YpJpUMJsiLZB9mP2Hzsw8fu8yfMSmMnrmv0aCqCSBgnr70tKpmLd+VWurb/4df/Jfx+9wy5K13s+3+Lzf834fd+X/AMU5vC2neI/F+p3Wp6Y2o3Oj6aLvR/E1gzrfRparsfS7uCQTqW+7hdrCUEk4AK/o14KnluvBug3M9i+mSTWFq7WsjtI9uWiUmJnf52KfdJbkkZPNdBJb28rpJLErvGcqWAJU+xPSpqzxGM9pDlt/X3f10NcPg/Zyvfpb+tf663CiiiuE7QooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD//1/38ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD/9D9/KKKKACiiigAooooAKKKKACiiigAooooAKKMZpPxNAC0Um0UtABRSHpRtFAC0ZFJtFLgUAFGRSEAjFNCKvT0xQA+jIpNopcCgAopNoo/E0ALkUUYFJtFAC0UUhGaAFopNoo/E0ALRSbRRtFAC0Um0UfiaAFoopNooAXIoowKTaKAFopNoowDQAtFJtFG0UALRRSEZoAWimgAU6gAooooAKKKKACik/E0bRQAuRSZHrRgUEA9aAFopuxc5xS7RnNAC0ZFMZA3UZpdi0AOyKKYEUHNO2igBaKT8TRtFAC5FFGBRQAUUm0UfiaAFyKTIFIVBpCimgB9GRTQqjpTsCgAoopNooAWik2igqCc0ALRTQqjpS7RQAtFFFABRRRQAUUUUAf/0f38ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD/9k=);
+          width: 250px;
+          height: 97px;
+        }
+      }
+      .d-header2 {
+        height: 72px;
+      }
+      .header-content {
+        background: #fff;
+        width: 100%;
+      }
+      .med-content {
+        background: #eceaec;
+      }
+      .bg {
+        background-position: left bottom;
+      }
+      .bgspacer {
+        height: 175px;
+      }
+      .bgfeatured {
+        height: 50px;
+        background: #f0f0f0;
+      }
+      #back,
+      #footer,
+      .credit,
+      .footer-wrap {
+        background: #fff;
+      }
+      .content {
+        margin: 0 auto;
+        color: #555;
+      }
+      #footer {
+        text-align: center;
+        font-size: 12px;
+      }
+      #footer p {
+        margin: 0 0 10px;
+      }
+      .footer-wrap {
+        color: #333;
+        padding: 30px 20px;
+        max-width: 1000px;
+        margin: 0 auto;
+        line-height: 1.428571429;
+      }
+      .footer a {
+        font-size: 13px;
+        color: #4b6c87;
+      }
+      .footer p a {
+        text-decoration: underline;
+      }
+      .footer p a:hover,
+      .supertitle {
+        text-decoration: none;
+      }
+      #privacy {
+        margin-top: 15px;
+        margin-bottom: 0;
+        color: #555;
+        font-size: 12px;
+      }
+      .tcenter {
+        text-align: center;
+        margin-top: 15px;
+      }
+      .ghighlight {
+        color: #6fb882;
+      }
+      .highlighted {
+        border: 0 solid #000;
+      }
+      @media only screen and (max-width: 560px) {
+        .med-content {
+          margin-top: 5px;
+        }
+        .content {
+          width: 100%;
+        }
+        .bgspacer {
+          display: none;
+        }
+        .footer-wrap {
+          width: auto;
+          padding: 20px;
+        }
+      }
+      .step {
+        width: 100%;
+      }
+      .logo,
+      .step1 {
+        display: block;
+      }
+      .step-with-slider {
+        padding-bottom: 10px;
+      }
+      .inner-page .content {
+        background: 0 0 !important;
+        color: #000;
+        padding: 10px !important;
+        max-width: 1140px;
+        margin: 0 auto;
+      }
+      .title {
+        font-size: 30px;
+        line-height: 34px;
+        font-family: Lato, sans-serif;
+        font-weight: 400;
+      }
+      .subtitle {
+        margin-bottom: 12px;
+        padding-top: 0;
+      }
+      #back {
+        position: relative;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 10rem;
+        padding: 15px 10px;
+        font-weight: 700;
+        color: #3b2b88;
+        width: 125px;
+        margin: 10px;
+        transition: all 0.3s;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+      }
+      #credit-excellent,
+      #credit-fair,
+      #credit-good,
+      #credit-poor,
+      #no-homeowner,
+      #yes-homeowner,
+      .opt,
+      .submit {
+        padding: 15px 10px;
+        color: #fff;
+        width: 125px;
+        margin: 10px;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        font-weight: 700;
+        position: relative;
+        vertical-align: top;
+        border-radius: 10rem;
+        transition: all 0.3s;
+        text-align: center;
+        display: inline-block;
+      }
+      #credit-excellent,
+      #credit-fair,
+      #credit-good,
+      #credit-poor,
+      #no-homeowner,
+      #yes-homeowner,
+      .opt {
+        background: #8cc63e;
+      }
+      #back:hover {
+        transition: all 0.3s;
+        background: #f2f2f2;
+      }
+      .no-ssn,
+      .submit {
+        background: #8cc63e;
+      }
+      .submit:hover {
+        transition: all 0.3s;
+        background: #98cc52;
+      }
+      .box-container {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 15px;
+      }
+      .credit {
+        border: 1px solid #dbdbdb;
+        border-radius: 5px;
+        padding: 20px 0;
+        width: calc(25% - 22px);
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+        z-index: 99;
+        outline: 0;
+        box-sizing: border-box;
+        color: #0d0a12;
+        margin: 0 10px 10px;
+        font-size: 19px;
+        line-height: 1.3;
+        font-weight: 700;
+        text-align: center;
+        cursor: pointer;
+      }
+      .credit.highlighted,
+      .credit.highlighted .img-holder {
+        border-color: #26c97a;
+      }
+      .input,
+      .select-holder select,
+      select {
+        font-size: 20px;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+      }
+      .credit.highlighted {
+        background-color: #e9f9f1;
+      }
+      .house {
+        display: inline-block;
+        text-indent: -999px;
+        overflow: hidden;
+      }
+      .icon {
+        display: inline-block;
+        border-radius: 2px;
+        width: 150px;
+        height: 165px;
+        margin: 10px 25px 10px auto;
+        cursor: pointer;
+      }
+      .select-holder {
+        position: relative;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 10px;
+      }
+      .select-holder select::-ms-expand {
+        display: none;
+      }
+      .select-holder select {
+        display: inline-block;
+        background: #fff;
+        -webkit-appearance: none;
+        position: relative;
+        line-height: 24px;
+        padding: 8px 50px 8px 25px;
+        border-radius: 2rem;
+        border: 3px solid #ccc;
+        color: #555;
+        outline: 0;
+        height: 56px;
+        width: 480px;
+        margin: 0;
+      }
+      .select-holder:after,
+      .select-holder:before {
+        pointer-events: none;
+        position: absolute;
+        z-index: 1;
+        cursor: pointer;
+      }
+      .select-holder:before {
+        content: "";
+        top: 3px;
+        right: 3px;
+        bottom: 3px;
+        width: 50px;
+        background: #d8d8d8;
+        border-radius: 0 2rem 2rem 0;
+      }
+      .select-holder:after {
+        right: 24px;
+        content: "";
+        width: 8px;
+        height: 8px;
+        top: 50%;
+        border: 3px solid #084c88;
+        border-width: 0 0 3px 3px;
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        margin-top: -6px;
+        line-height: 0;
+      }
+      .select-holder select.input-error {
+        border-color: red;
+      }
+      .input,
+      select {
+        margin-top: 10px;
+        width: 430px;
+        height: 30px;
+        line-height: 24px;
+        padding: 8px 25px;
+        border-radius: 2rem;
+        border: 3px solid #ccc;
+        color: #555;
+        outline: 0;
+      }
+      option {
+        color: #555 !important;
+      }
+      .error,
+      .house,
+      .memo,
+      .next,
+      .no-ssn {
+        color: #fff;
+      }
+      .error {
+        font-size: 14px;
+        font-weight: 700;
+        margin: 6px 0 10px;
+      }
+      .input-error {
+        border: 3px solid red;
+      }
+      .noUi-horizontal .noUi-handle {
+        width: 48px;
+        height: 48px;
+        cursor: pointer;
+        left: -34px;
+      }
+      .noUi-target {
+        height: 30px;
+        background-color: #d8d8d8;
+        width: 490px;
+        max-width: 600px;
+        border-radius: 2rem;
+        margin: 0 auto;
+      }
+      .noUi-connect {
+        background-color: #fff;
+        border-radius: 2rem;
+      }
+      .noUi-horizontal .noUi-handle {
+        border-radius: 100%;
+        border: none;
+        margin-top: -5px;
+        background: #72bf00;
+        background: -moz-linear-gradient(left, #72bf00 0, #8cc63e 99%);
+        background: -webkit-linear-gradient(left, #72bf00 0, #8cc63e 99%);
+        background: linear-gradient(to right, #72bf00 0, #8cc63e 99%);
+      }
+      @media only screen and (max-width: 900px) {
+        .house-container {
+          width: 452px;
+          margin: 0 auto;
+          padding-left: 50px;
+        }
+        .house {
+          margin-bottom: 10px;
+        }
+        .box-container {
+          max-width: 500px;
+        }
+        .box-container .credit {
+          width: calc(50% - 22px);
+        }
+      }
+      @media only screen and (max-width: 560px) {
+        .box-container .credit {
+          display: block;
+          width: 228px;
+          padding: 10px 0;
+          margin: 0 auto 10px;
+        }
+        .credit .img-holder {
+          height: 100px;
+          padding-bottom: 10px;
+          margin: 0 0 10px;
+        }
+        .house-container {
+          width: auto;
+          padding: 0;
+        }
+        .update {
+          font-size: 26px;
+          margin: 20px;
+        }
+        .title {
+          font-size: 25px;
+          margin: 0;
+        }
+        .subtitle {
+          font-size: 24px;
+        }
+        .input {
+          width: 350px;
+        }
+        .select-holder select {
+          width: 406px;
+        }
+        .noUi-target {
+          width: 80%;
+        }
+      }
+      @media only screen and (max-width: 479px) {
+        .input {
+          width: 260px;
+          height: 22px;
+        }
+        .noUi-target {
+          width: 80%;
+        }
+        .select-holder select {
+          width: 316px;
+        }
+      }
+      .d-header {
+        height: auto;
+        background-size: contain;
+      }
+      .d-header3 {
+        background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAASABIAAD/4QBMRXhpZgAATU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAEyKADAAQAAAABAAAAyAAAAAD/7QA4UGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAAA4QklNBCUAAAAAABDUHYzZjwCyBOmACZjs+EJ+/8AAEQgAyATIAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/bAEMAAgICAgICAwICAwUDAwMFBgUFBQUGCAYGBgYGCAoICAgICAgKCgoKCgoKCgwMDAwMDA4ODg4ODw8PDw8PDw8PD//bAEMBAgICBAQEBwQEBxALCQsQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEP/dAAQATf/aAAwDAQACEQMRAD8A/fyiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA//Q/fyiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA//R/fyiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA//S/fyiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiio5ZY4Y2llYIijJJOABQBJXk3jj4zeDfA7vZTzHUNRTg21vhih/6aMflT6ct/s14f8W/jzcXEk3hrwNOYYFyk96hw7noVhP8I9XHJ/hwOT8okliSTknvXwGd8Y8knSwmtvtf5f5/8OfP5jnaptwpavv0Po7Wv2mfGd67Lotna6bEfu5BnlH/AAJsKf8AviuOb48fFYtu/tzHsLa3x/6Lrxm5urWyiNxeTJBEvV5GCqPxPFY8fivwxK/lpqtqWPAHnJz9Oea+ReaZhV95Tk/S/wCh4Esbip+9zP5f8A+l9L/aL+JFg4N7Nb6kvcTQKnHsYdn9a+gvAv7QXhnxTcxaXrUJ0a+lO1C7h4HY9AJMDaT6MAO24mvgVWDAMpyDyCKWunAcVYyjJc0uZdn/AJ7joZtXg/iv66n68UV85fs9fEG48SaNN4X1eUy32lKDE7HLSW54GT3KHjPoV96+ja/W8Hi4V6Ua1PZ/1+Gx9pg8VGtTVSIUUUV0nUFFFFABRRRQAUUUUAFFFFABRRRQAV8qftM/tF3vwHXQIdK0uHVbrWTcMyzSMgjjg2AH5eu4v+hr6rr8aP27PEv9s/GpdFjfMeg6fbwFewlm3TsfqVdB+FduW0FUrxhLbr93+djjzCu6dCU1v0+87/8A4eG+L/8AoUbH/wACJf8ACv0M+DvjXV/iL8N9F8ba5Yx6bdavG83kRMzKsfmMsZBbn5kAb8a/nnhhkuJUghUvJIwVVHJJJwAK/o/8GeH4vCfhDRPC8P3NJsre0B9fJjVM/jivYznCUaVJckbNv/h/0PHyfGVqtVqcrpL/AIb9TpaKKK+aPpAooqOaQRQvKxwEUk/hQBna3qsOi6PfatMQVsoJJiCeojUtj8cV8Z/8NQeMf+gVYflL/wDF18ueLPi1418UfGDV9Cj1OT+x42mDwq3yGNRtA+m4irlfnnFudYihiI06E7K1397Pms7zGdOcYU3bufS//DUHjD/oFWH5S/8AxdH/AA1B4w/6BVh+Uv8A8XXzJJNFFjzXVM9MkD+dR/a7X/nsn/fQr5hcRY9/8vH+B439qYn+Zn0//wANQeMP+gVYflL/APF1Yt/2ovEyuDdaNZyL6I0iH8yW/lXyytzbMQqyoSewYVPR/rJj0/4j+5f5C/tXEr7Z92+Ef2kPC2uXUdhr9q+izSnasjOJbfJ4G58KVz6lcDuRX0UCGAZTkHoa/Iivuz9nHxhda74YufD+oSmWfRmRYixyfs8gOxc99pUgegwK+14Y4kniZuhX+LdPv3+fU9nKs4nOoqVXW+zPoyiiivtT6YKKKKACiiigAooqrfXtrptlcajeyCK3tY3llc9FRAWYn2AGaTdtWNK+iPIPjN8d/BHwS0iO98SyPc6hdg/ZLCDBnmxwW5ICID1dvoAx4r89/EH/AAUD+Jd5cN/wjegaXplsegn826lH/Aw8Sn/vivlD4tfEbVfit4+1Xxpqrti7lK28RORBbIcRRDsNq9cdWJbqTXKeGvDOv+MdbtfDnhewl1LUrxtsUEK5ZsDJPoAACSSQAASSBX1+AyanGClVV3+R8hmGc1JTcaTsl+J9leGv22Pj1rniDTdDtotJmn1K5hto1a0fG+Zwi/dlB6mv1V8d+JV8GeCdd8WSBW/sexuLoK3RmijLKp+pAFflz8BP2Vfi/wCHvi74Z8Q+OfDn2HRtMuDdSym6tZdrwozxfJFKzHMoXtx1Nfa37Xtxrg+Bur6V4esbm/u9XmtrXZaxPM6xmQSOSEBIUqhUk8cgd687NoUXKnTo217ebS/A9PKJ10pzrX07+V2z4R/4b6+NX/QO0T/wGn/+SK+p/wBlb9ob4m/G/wAT6zZ+KbTToNL0m0WQtaQyxyGeWQCMEvK427VcnjOQOa/K7/hW/wARP+hW1X/wBn/+Ir9Tf2EfAmqeFfAOvazrunzadfatqAjCXEbRSGC2jGw7XAON8j4r08fh8PCjKUYq/wDSPLwGIxE60Yyk7f0z7nooor48+vCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA//T/fyiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAGsyopdjgDkmvhP41/GS48Qavc+D/DM+3TrI7LqVD/rJP8AnmCOwHLfgO9er/tPfFcfDXwHMlk+NS1EGKEDqM96+B9DsZrDTIYbpt9y4Mk7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evRP20v+Tetf/wCu1j/6Ux19G6z4W8M+I5bOfxDpFnqkmnyebbNdW8c7QScHfGXUlGyByuDwKs6zoei+I9Ol0jxDp9vqlhPt8y3uoknhfaQy7kcFTggEZHBGa4liEo042+GV/wAU/wBDrnh25Td/ijb/ANK/zPhfxV8WNT+FnwH+Ekt14etNe8J6zp1la6wLqEzhI/JhZVVCwQs6CQqHBGVH4+T/ABy0X9jK+8AXvinwPfwWfiC5i8yxg0ySXc8x+6k1q+VhT+9lYyO2TgH9OLjwx4bu9B/4RW50q1l0URLALJoENsIkwFQRY2BVwMDGBjivNNO/Z3+CGlajHqtl4L05bmIhkLReYqsOQQjkoCD0OOO1dcMbT5nJ3Tu3ddU9bP0OWeCnyqKs1ZKzXVdUZf7MB8SH4EeEW8VNK181s5UzEmT7OZXNvknnHk7Nv+zive6KK4cTW9pUlUta7bO7DUfZ04wveysFFFFYGwUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH//R/fyiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA//S/fyiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA//T/fyiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA//Z);
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 120px;
+        width: 400px;
+        margin: 0 auto;
+      }
+      @media only screen and (max-width: 560px) {
+        .d-header3 {
+          width: 250px;
+          height: 97px;
+          background-image: url(data:image/jpeg;base64,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dNjZbW7FvOXv3hWMLuCRFfNMf+8Tg5r9L3RJFKOoZWGCCMgg+tcn4w8HWfjDwzP4Ya8u9HjlMbJcadL9muIXjcOrRsAQORyCCCMgiu7+0L1HNrrffzX32t5dOxwrL7U1BP7Nttdnrfpe/n17n58+K9Y+Eut+KviJdfCOC1jsE+Hl8lxJZQfZ7Z5fOj27VCoCypgMwHop5U123xJ03wN4Ak+GHh6y0rQvDmni0u7tdT1a2luLOOfyIUcGCN40muZAFPmTkn5RtO6vqzwj8LoPDfim88batruoeJNcu7VLFbi/MCiC2Rt5jijt4oUXe2Gc4JJAPrn06SKKYBZUVwCCAwBwR0PNE8ao8qjdpef+LyX83bpbVCjg3K8pWTfl/h832/G+jPy08CW3h/xP4R0nwrqBg1Szb4oK0lt9mNpE1rcW8jxEWjf6mGXaxWM8AZU55rtPEHw78CJD+0bcjw7YpJpUMJsiLZB9mP2Hzsw8fu8yfMSmMnrmv0aCqCSBgnr70tKpmLd+VWurb/4df/Jfx+9wy5K13s+3+Lzf834fd+X/AMU5vC2neI/F+p3Wp6Y2o3Oj6aLvR/E1gzrfRparsfS7uCQTqW+7hdrCUEk4AK/o14KnluvBug3M9i+mSTWFq7WsjtI9uWiUmJnf52KfdJbkkZPNdBJb28rpJLErvGcqWAJU+xPSpqzxGM9pDlt/X3f10NcPg/Zyvfpb+tf663CiiiuE7QooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD//1/38ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD/9D9/KKKKACiiigAooooAKKKKACiiigAooooAKKMZpPxNAC0Um0UtABRSHpRtFAC0ZFJtFLgUAFGRSEAjFNCKvT0xQA+jIpNopcCgAopNoo/E0ALkUUYFJtFAC0UUhGaAFopNoo/E0ALRSbRRtFAC0Um0UfiaAFoopNooAXIoowKTaKAFopNoowDQAtFJtFG0UALRRSEZoAWimgAU6gAooooAKKKKACik/E0bRQAuRSZHrRgUEA9aAFopuxc5xS7RnNAC0ZFMZA3UZpdi0AOyKKYEUHNO2igBaKT8TRtFAC5FFGBRQAUUm0UfiaAFyKTIFIVBpCimgB9GRTQqjpTsCgAoopNooAWik2igqCc0ALRTQqjpS7RQAtFFFABRRRQAUUUUAf/0f38ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD/9k=);
+        }
+      }
+      .logo {
+        max-height: 150px;
+        max-width: 100%;
+        margin: 0 auto;
+      }
+      .logo-mobile {
+        display: none;
+      }
+      .content {
+        border-bottom: 2px solid #ddd;
+        padding: 20px 0 30px;
+        background: #4b6c87;
+        background: -moz-linear-gradient(-45deg, #4b6c87 0, #004989 99%);
+        background: -webkit-linear-gradient(-45deg, #4b6c87 0, #004989 99%);
+        background: linear-gradient(135deg, #4b6c87 0, #004989 99%);
+        border-top: none;
+        padding-top: 0 !important;
+        width: auto;
+      }
+      .no-ssn {
+        padding: 10px;
+        font-size: 25px;
+        text-align: center;
+        box-shadow: 0 4px 4px 2px rgba(0, 0, 0, 0.15);
+      }
+      .no-ssn > div {
+        max-width: 1000px;
+        margin: 0 auto;
+      }
+      .supertitle {
+        font-family: Source Sans Pro, sans-serif;
+        font-size: 45px;
+        font-style: normal;
+        line-height: 45px;
+        font-weight: 700;
+        font-variant: normal;
+        text-transform: none;
+        text-align: center;
+        color: #fff;
+        padding: 0 0 25px;
+      }
+      .subtitle {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .house {
+        border-radius: 5px;
+        width: 138px;
+        height: 158px;
+        line-height: 59px;
+        margin: 0 5px 20px;
+        cursor: pointer;
+        border: 4px solid #0b86e1;
+        background-size: contain;
+      }
+      .house.highlighted {
+        border-color: #8dc540;
+        box-shadow: 0 0 7px #777;
+        border-width: 8px;
+        position: relative;
+        top: 5px;
+      }
+      .btn-holder {
+        text-align: center;
+      }
+      .next {
+        position: relative;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 10rem;
+        padding: 15px 10px;
+        font-weight: 700;
+        background: #8cc63e;
+        width: 125px;
+        margin: 10px;
+        transition: all 0.3s;
+      }
+      .next:hover {
+        transition: all 0.3s;
+        background: #98cc52;
+      }
+      .update {
+        text-align: center;
+        font-size: 19px;
+        color: #fff;
+        margin: 10px 0;
+      }
+      .vet {
+        border: 4px solid #444;
+        border-radius: 4px;
+        background: #444;
+        color: #fff;
+        font-size: 18px;
+        padding: 0 10px;
+        cursor: pointer;
+        font-weight: 400;
+        display: inline-block;
+        margin: 0 5px 20px;
+      }
+      .vet.vet-selected {
+        border-color: #04b431;
+        background: #04b431;
+        box-shadow: 0 0 7px #777;
+        cursor: pointer;
+        border-width: 8px;
+      }
+      .privacy {
+        color: #000;
+        max-width: 960px;
+        margin: 20px auto;
+        font-size: 13px;
+        line-height: 1.4;
+        min-height: 20px;
+        padding: 20px;
+        background: #fff;
+        border: 3px solid #d8d8d8;
+        border-radius: 4px;
+        box-shadow: 7px 7px 10px 3px rgba(0, 0, 0, 0.15);
+      }
+      @media only screen and (max-width: 768px) {
+        .no-ssn {
+          font-size: 20px;
+        }
+        .supertitle {
+          font-size: 35px;
+          line-height: 35px;
+        }
+        .credit {
+          font-size: 18px;
+        }
+      }
+      @media only screen and (max-width: 560px) {
+        .house {
+          font-size: 28px;
+          display: block;
+          font-weight: 400;
+          height: 46px;
+          width: 308px;
+          margin-left: auto;
+          margin-right: auto;
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+        .content {
+          margin-left: 0;
+          margin-right: 0;
+        }
+        .no-ssn {
+          font-size: 14px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+        }
+        .supertitle {
+          font-size: 24px;
+          line-height: 26px;
+        }
+        .logo {
+          display: none;
+        }
+        .logo-mobile {
+          display: block;
+          max-width: 273px;
+          height: auto;
+        }
+      }
+    </style>
+  </head>
+  <body class="inner-page">
+    <SCRIPT LANGUAGE="JavaScript">
+user = 'admin';
+site = 'govapplication-lfv.com';
+    </SCRIPT>
+    <form
+    >
+      <!--div class="header-content" id="header-content">
+        <div class="header">
+          <div class="d-header3"></div>
+        </div>
+      </div-->
+      <div class="content">
+        <div class="cotainer">
+          <h1>Privacy Policy</h1>
+		  <h4 class="mb-5">Last Updated May 16th, 2022</h4> 
+		  <p>
+            govapplication-lfv.com (the "Website," "we," "our," or "us") takes your
+            privacy seriously. Please read the following to learn more about our
+            privacy policy. By visiting this website, you are accepting the
+            practices described in this Privacy Notice. What This Privacy Policy
+            Covers
+          </p>
+          <br />
+          <br />
+          <ul>
+            <li>
+              This policy covers how we treat personal information that the
+              website collects and receives, including information related to
+              you're past use of our products and services. Personal information
+              is information about you that is personally identifiable like your
+              name, address, email address, IP address, or phone number, and
+              that is not otherwise publicly available.
+            </li>
+            <li>
+              This policy does not apply to the practices of companies that we
+              do not own or control, or to people that we do not employ or
+              manage.
+            </li>
+          </ul>
+          <br />
+          <h3>Information Collection and Use General</h3>
+          <ul>
+            <li>
+              The website collects personal information when you register with
+              us.
+            </li>
+            <li>
+              When you register we ask for information such as your name,
+              address, phone number, email address and zip code. Once you
+              register with us and sign in to our services, you are not
+              anonymous to us.
+            </li>
+            <li>
+              We collect information about your transactions with us, including information about your
+              use of financial products and services that we offer.
+            </li>
+            <li>
+              The website automatically receives and records information on our
+              server logs from your browser, including your IP address, cookie
+              information, and the page you request.
+            </li>
+            <li>
+              We use information for the following general purposes: to fulfill
+              your requests for products and services, improve our services,
+              contact you, and to conduct research.
+            </li>
+            <li>
+              We reserve the right to send you certain communications relating
+              to our services, such as service announcements, administrative
+              messages, special offers and an website Newsletter.
+            </li>
+            <li>
+              We may share personal information about you to regulatory bodies and in accordance with the Federal Telephone
+              Consumer Protection Act (TCPA), however, we will never sell or
+              rent your email address or other personally identifying information to commercial 3rd parties. We may use your personal information to help us communicate with you about offers
+              from the website. You may receive
+              certain communications relating to our services, such as service
+              announcements, administrative messages, special offers and a
+              Newsletter.
+            </li>
+          </ul>
+          <br />
+          <h3>Confidentiality and Security</h3>
+          <ul>
+            <li>
+              We limit access to personal information about you to employees who
+              we believe reasonably need to come into contact with that
+              information to provide products or services to you or in order to
+              do their jobs.
+            </li>
+            <li>
+              We have physical, electronic, and procedural safeguards that
+              comply with federal regulations to protect personal information
+              about you.
+            </li>
+          </ul>
+          <br />
+          <h3>Cookies</h3>
+          <ul>
+            <li>
+              We may set and access cookies on your computer. We use this
+              information for Web Site and Systems Administration.
+            </li>
+            <li>
+              Cookies are alphanumeric identifiers that we transfer to your
+              computer's hard drive through your Web browser to enable our
+              systems to recognize your browser and to provide features and
+              storage of items in your Shopping Cart between visits.
+            </li>
+          </ul>
+          <br />
+          <h3>GDPR and CASL Compliance</h3>
+          <ul>
+            <li>
+              Unfortunately, we are not in a position to accept registrants who
+              are not U.S. Citizens. The CASL and GDPR regulations, in
+              particular, provide certain rights to their citizens which are not
+              the same as the United States. For this reason, we do not accept
+              registrations from any citizen outside the United States. Our
+              services are specifically designed for United States citizens. We
+              have expunged all European Union Member and Canadian Citizens data
+              to the extent we have been made aware of the same. If you are a
+              European Union Member, Canadian or any country outside of the
+              United States citizen, please notify us at
+              
+<SCRIPT LANGUAGE="JavaScript">
+document.write('<a href=\"mailto:' + user + '@' + site + '\">');
+document.write(user + '@' + site + '</a>');
+</SCRIPT>
+            </li>
+          </ul>
+          <br />
+          <h3>
+            <p>
+              This section of the Privacy Policy supplements the information
+              contained elsewhere in our Privacy Policy and applies solely to
+              visitors, users, an others who reside in the state of California
+              (“Consumers”). The provisions contained within this section are
+              intended to provide notices in compliance with the California
+              Consumer Privacy Act of 2018 (“CCPA”). Any terms defined by the
+              CCPA have the same meaning when used in this section.
+            </p>
+          </h3>
+          <br />
+          <h3>Personal Information Collected</h3>
+          <p>
+            We collect Personal Information provided by Consumers through the
+            Site. In the past 12 months, we have collected the following
+            Personal Information from Consumers:
+          </p>
+          <table>
+            <tr>
+              <th>Category of Information</th>
+              <th>Examples</th>
+              <th>Information Collected</th>
+            </tr>
+            <tr>
+              <td>Identifiers</td>
+              <td>
+                A real name, alias, postal address, unique personal identifier,
+                online identifier, Internet Protocol address, email address,
+                account name, Social Security number, driver's license number,
+                passport number, or other similar identifiers.
+              </td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>
+                Categories of personal information described in subdivision (e)
+                of Section 1798.80.
+              </td>
+              <td>
+                A name, signature, social security number, physical
+                characteristics or description, address, telephone number,
+                passport number, driver's license or state identification card
+                number, insurance policy number, education, employment,
+                employment history, bank account number, credit card number,
+                debit card, or any other financial information, or health
+                insurance information.
+              </td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>
+                Characteristics of protected classifications under California or
+                federal law
+              </td>
+              <td>
+                Age (40 years or older), race, color, ancestry, national origin,
+                citizenship, religion or creed, marital status, medical
+                condition, physical or mental disability, sex (including gender,
+                gender identity, gender expression, pregnancy or childbirth and
+                related medical conditions), sexual orientation, veteran
+                military status, genetic information (including familial genetic
+                information).
+              </td>
+              <td>No</td>
+            </tr>
+            <tr>
+              <td>Commercial Information</td>
+              <td>
+                Records of personal property, products or services purchased,
+                obtained, or considered, or other purchasing or consuming
+                histories or tendencies.
+              </td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>Biometric information</td>
+              <td>
+                An individual's physiological, or biological or behavioral
+                characteristics, including an individual's deoxyribonucleic acid
+                (DNA), that can be use, singly or in combination with each other
+                or with other identifying data, to establish individual
+                identity, including but not limited to, imagery of the iris,
+                retina, fingerprint, face, hand, palm, vein patterns, and voice
+                recordings, from which an identifier template, such as a
+                faceprint, a minutiae template, or a voiceprint, can be
+                extracted, and keystroke patterns or rhythms, gait patterns or
+                rhythms, and sleep, health, or exercise data that contain
+                identifying information.
+              </td>
+              <td>No</td>
+            </tr>
+            <tr>
+              <td>Internet or other electronic network activity information</td>
+              <td>
+                Browsing history, search history, and information regarding a
+                consumer's interaction with an Internet Web site, application,
+                advertisement.
+              </td>
+              <td>No</td>
+            </tr>
+            <tr>
+              <td>Geolocation</td>
+              <td>Physical location, position, and movement data.</td>
+              <td>No</td>
+            </tr>
+            <tr>
+              <td>Sensory information</td>
+              <td>
+                Audio, electronic, visual, thermal, olfactory, or similar
+                information.
+              </td>
+              <td>No</td>
+            </tr>
+            <tr>
+              <td>Professional or employment-related information</td>
+              <td>Present and past employment data.</td>
+              <td>No</td>
+            </tr>
+            <tr>
+              <td>Education information</td>
+              <td>
+                Education records maintained by educational institutions or
+                third parties on behalf of these institutions.
+              </td>
+              <td>No</td>
+            </tr>
+            <tr>
+              <td>Inferences drawn from any other information</td>
+              <td>
+                Data reflecting a consumer's preferences, characteristics,
+                habits, attitudes, predispositions, intelligences, and
+                abilities.
+              </td>
+              <td>No</td>
+            </tr>
+          </table>
+          <p>
+            The categories of Personal Information described above are collected
+            from the following categories of sources:
+          </p>
+          <ul>
+            <li>
+              Directly from Consumers or their agents, such as through
+              Consumers responses to our web forms.
+            </li>
+            <li>
+              Directly and indirectly from activity on our Website, such as
+              through Consumers’ interaction with our Website.
+            </li>
+            <li>
+              From third parties that work with us to provide services to
+              Consumers, such as third parties that we connect Consumers with to
+              fulfill their requests.
+            </li>
+          </ul>
+          <br />
+          <h3>Uses of Personal Information</h3>
+          <p>The information we collect is used to:</p>
+          <ul>
+            <li>
+              Fulfill the purpose for which the information was provided by the
+              Consumer.
+            </li>
+            <li>
+              Perform the activities described to Consumers when collecting
+              their Personal Information or as set forth in the CCPA.
+            </li>
+            <li>
+              Provide the Consumer with information, products, or services that
+              have been requested.
+            </li>
+            <li>Perform internal and external marketing.</li>
+            <li>Carry out obligations and enforce contractual rights.</li>
+            <li>
+              Improve the services provided through the Website, such as through
+              testing, research, analysis, and development.
+            </li>
+            <li>
+              Respond to requests from law enforcement and government
+              organizations as required by law, court order, or government
+              regulation.
+            </li>
+            <li>
+              Evaluate or conduct a merger, divestiture, restructuring,
+              reorganization, dissolution, sale, or other transfer of some or
+              all of our assets whether on an ongoing basis or as part of a
+              discrete transaction in which collected Personal Information is
+              among the assets transferred.
+            </li>
+          </ul>
+          <p>
+            Personal information will not be used for materially different
+            purposes without first providing the Consumer with notice.
+          </p>
+          <br />
+          <h3>Sharing and Sale of Personal Information</h3>
+          <p>
+            We do not disclose Personal Information provided to us by Consumers
+            for a business purpose. Personal information for minors under 16
+            years of age is not collected, disclosed for a business purpose or
+            sold.
+          </p>
+          <br />
+          <h3>Consumers’ Rights</h3>
+          <p>Consumers have several rights under the CCPA. These include:</p>
+          <ul>
+            <li>
+              The right to know what categories and specific pieces of Personal
+              Information are collected, disclosed for a business purpose, or
+              sold by requesting this information from us.
+            </li>
+            <li>
+              The right to request deletion of Personal Information collected or
+              maintained by us.
+            </li>
+            <li>The right to opt-out of the sale of Personal Information.</li>
+            <li>
+              The right not to receive discriminatory treatment from us for
+              choosing to exercise privacy rights under the CCPA.
+            </li>
+            <li>
+              The right to designate an authorized agent for making requests
+              under the CCPA on the Consumer’s behalf.
+            </li>
+          </ul>
+          <p>
+            Even after fulfilling a request for deletion, we are required to
+            maintain records for statutory compliance. To submit a request to
+            know or delete Personal Information complete the form provided
+            <a
+              href="https://privacyportal-eu-cdn.onetrust.com/dsarwebform/942fbf02-bbfe-4a5d-808d-080b06c5651c/3fdf8f1d-7ab3-4a99-bb4e-24965500290d.html"
+              >here</a
+            >
+            . Once we have received a request, we work with Consumers to verify
+            their identities. As part of the verification process, we work with
+            OneTrust. Depending on the type of request submitted, OneTrust may
+            request information from the Consumer, such as an email address,
+            phone number, or government issued identification card. More
+            information about OneTrust’s identification process is found
+            <a href="https://www.onetrust.com/ccpa-id-verification/">here</a>.
+            If a Consumer has asked an agent to exercise rights on the
+            Consumer’s behalf, the agent’s identity will need to be verified by
+            providing a writing from the Consumer designating the agent in
+            addition to any information requested through OneTrust.
+          </p>
+          <br />
+          <h3>Do not track browser settings</h3>
+          <ul>
+            <li>
+              Advertisers may collect data about your online browsing activity
+              and use it to show you targeted ads (a process known as
+              "behavioral advertising"). You can prevent companies from showing
+              you targeted ads by submitting opt-outs to those service
+              providers. Opting-out will only prevent targeted ads so you may
+              continue to see generic (non-targeted ads) from these companies
+              after you opt-out. You may opt-out of behaviorally targeted ads
+              anytime by deleting your browser's cookies.
+            </li>
+          </ul>
+          <br />
+          <h3>Information Sharing and Disclosure</h3>
+          <ul>
+            <li>
+              Information You Give Us: We receive and store any information you
+              enter on our Web site or give us in any other way. You can choose
+              not to provide certain information, but then you might not be able
+              to take advantage of many of our features. We use the information
+              that you provide for such purposes as responding to your requests,
+              customizing future shopping for you, improving our stores, and
+              communicating with you.
+            </li>
+            <li>
+              Automatic Information: We receive and store certain types of
+              information whenever you interact with us. For example, like many
+              Web sites, we use "cookies," and we obtain certain types of
+              information when your Web browser accesses this site.
+            </li>
+            <li>
+              Agents: We employ other companies and individuals to perform
+              functions on our behalf. Examples include fulfilling orders,
+              delivering packages, sending postal mail and e-mail, removing
+              repetitive information from customer lists, analyzing data,
+              providing marketing assistance, providing search results and links
+              (including paid listings and links), processing credit card
+              payments, and providing customer service. They have access to
+              personal information needed to perform their functions, but may
+              not use it for other purposes
+            </li>
+            <li>
+              We respond to subpoenas, court orders, or legal process, or to
+              establish or exercise our legal rights or defend against legal
+              claims
+            </li>
+            <li>
+              We believe it is necessary to share information in order to
+              investigate, prevent, or take action regarding illegal activities,
+              suspected fraud, violations of our terms of use, or as otherwise
+              required by law.
+            </li>
+            <li>
+              We transfer information about you if we are acquired by or merged
+              with another company. In this event, we will notify you before
+              information about you is transferred and becomes subject to a
+              different privacy policy.
+            </li>
+          </ul>
+          <br />
+          <h3>Changes to this Privacy Policy</h3>
+          <ul>
+            <li>
+              We may update this policy. We will notify you about significant
+              changes in the way we treat personal information by sending a
+              notice to the primary email you entered or by placing a prominent
+              notice on our site.
+            </li>
+          </ul>
+          <br />
+          <h3>Wireless and SMS Policy</h3>
+          <p>
+            We may use personal information to provide the services you've
+            requested, including services that display customized content and
+            advertising. In addition to any fee of which you are notified, your
+            provider's standard messaging rates apply to our confirmation and
+            all subsequent SMS correspondence. You may opt-out and remove your
+            SMS information by sending "STOP", "END", "QUIT" to the SMS text
+            message you have received. If you remove your SMS information from
+            our database it will no longer be used by us for secondary purposes,
+            disclosed to third parties, or used by us or third parties to send
+            promotional correspondence to you.
+          </p>
+          <br />
+          <br />
+          <h3>Detailed Wireless and SMS Policy</h3>
+          <p>
+            Data obtained from you in connection with this SMS service may
+            include your name, address, cell phone number, your provider's name,
+            and the date, time, and content of your messages. In addition to any
+            fee of which you are notified, your provider's standard messaging
+            rates apply to our confirmation and all subsequent SMS
+            correspondence. All charges are billed by and payable to your mobile
+            service provider. We will not be liable for any delays in the
+            receipt of any SMS messages, as delivery is subject to effective
+            transmission from your network operator. SMS message services are
+            provided on an AS IS basis.
+          </p>
+          <br />
+          <p>
+            We may use personal information to provide the services you've
+            requested, including services that display customized content and
+            advertising. We may also use personal information for auditing,
+            research and analysis to operate and improve our technologies and
+            services. We may share aggregated and non personal information with
+            third parties. When we use third parties to assist us in processing
+            your personal information, we require that they comply with our
+            Privacy Policy and any other appropriate confidentiality and
+            security measures. We may also share information with third parties
+            in limited circumstances, including when complying with legal
+            process, preventing fraud or imminent harm, and ensuring the
+            security of our network and services.
+          </p>
+          <br />
+          <p>
+            You may remove your information from our database. If you remove
+            your information from our database it will no longer be used by us
+            for secondary purposes, disclosed to third parties, or used by us or
+            third parties to send promotional correspondence to you. You may
+            remove your information by sending "STOP", "END", "QUIT" to the SMS
+            text message you have received.
+          </p>
+          <br />
+          <p>
+            CONTACT US or OPTOUT If you have any questions regarding this
+            Privacy Policy, or wish to opt-out of any communication (phone,
+            email, sms or otherwise) please contact:
+           
+<SCRIPT LANGUAGE="JavaScript">
+document.write('<a href=\"mailto:' + user + '@' + site + '\">');
+document.write(user + '@' + site + '</a>');
+</SCRIPT> You may write to use at 9921 Carmel
+            Mountain Rd #425, San Diego, CA 92129
+          </p>
+          <br />
+          <br />
+
+          <h1>Privacy Notice for California Residents</h1>
+          <p>Last Updated: September 17, 2021</p>
+          <p>
+            This Privacy Notice for California Residents ("Privacy Notice")
+            supplements the information contained in Discount Solar Connect's
+            Privacy Policy (the "Privacy Policy") made available on the website
+            located at DiscountSolarConnect.com (the "Site"). The Site is owned
+            and operated by Discount Solar Connect ("Company," "we," "us" or
+            "our"). This Privacy Notice applies solely to residents of the State
+            of California ("Users"). We adopt this Privacy Notice in compliance
+            with the California Consumer Privacy Act of 2018 ("CCPA") and other
+            applicable California State privacy laws. Any terms defined in the
+            CCPA have the same meaning when used in this Privacy Notice. Users
+            with disabilities who wish to access this Privacy Notice in an
+            alternative format can contact us by emailing us at: support
+            <SCRIPT LANGUAGE="JavaScript">
+document.write('<a href=\"mailto:' + user + '@' + site + '\">');
+document.write(user + '@' + site + '</a>');
+</SCRIPT> or sending us U.S. mail to: 9921
+            Carmel Mountain Rd #425, San Diego, CA 92129
+          </p>
+          <br />
+
+          <h2>Categories of Information We Collect</h2>
+          <p>
+            We collect information that identifies, relates to, describes,
+            references, is capable of being associated with, or could reasonably
+            be linked, directly or indirectly, with a particular User or device
+            ("personal information"). In particular, we have collected the
+            following categories of personal information from Users within the
+            last twelve (12) months:
+          </p>
+          <br />
+
+          <table>
+            <thead></thead>
+            <tbody>
+              <tr>
+                <td>
+                  <p>Category</p>
+                </td>
+                <td>
+                  <p>Examples</p>
+                </td>
+                <td>
+                  <p>Collected</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>A. Identifiers.</p>
+                </td>
+                <td>
+                  <p>
+                    A real name, alias, postal address, unique personal
+                    identifier, online identifier, Internet Protocol address,
+                    email address, account name, telephone number, or other
+                    similar identifiers.
+                  </p>
+                </td>
+                <td>
+                  <p>YES</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>
+                    B. Personal information categories listed in the California
+                    Customer Records statute (Cal. Civ. Code § 1798.80(e)).
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    A name, signature, Social Security number, physical
+                    characteristics or description, postal address, telephone
+                    number, passport number, driver's license or State
+                    identification card number, insurance policy number,
+                    education, employment, employment history, bank account
+                    number, credit card number, debit card number, or any other
+                    financial information, medical information, or health
+                    insurance information. Some personal information included in
+                    this category may overlap with other categories.
+                  </p>
+                </td>
+                <td>
+                  <p>YES</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>
+                    C. Protected classification characteristics under California
+                    or federal law.
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    Age (40 years or older), race, color, ancestry, national
+                    origin, citizenship, religion or creed, marital status,
+                    medical condition, physical or mental disability, sex
+                    (including gender, gender identity, gender expression,
+                    pregnancy or childbirth and related medical conditions),
+                    sexual orientation, veteran or military status, genetic
+                    information (including familial genetic information).
+                  </p>
+                </td>
+                <td>
+                  <p>YES</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>F. Internet or other similar network activity.</p>
+                </td>
+                <td>
+                  <p>
+                    Browsing history, search history, information on a User's
+                    interaction with a website, application or advertisement.
+                  </p>
+                </td>
+                <td>
+                  <p>YES</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>I. Professional or employment-related information.</p>
+                </td>
+                <td>
+                  <p>Current or past job history or performance evaluations.</p>
+                </td>
+                <td>
+                  <p>YES</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <br />
+
+          <h4>Personal information does not include:</h4>
+          <ul>
+            <li>
+              <div>Publicly available information from government records.</div>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <div>De-identified or aggregated User information.</div>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <div>Information excluded from the CCPA's scope, such as:</div>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <div>
+                health or medical information covered by the Health Insurance
+                Portability and Accountability Act of 1996 (HIPAA) and the
+                California Confidentiality of Medical Information Act (CMIA) or
+                clinical trial data;
+              </div>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <div>
+                personal information covered by certain sector-specific privacy
+                laws, including the Fair Credit Reporting Act (FRCA), the
+                Gramm-Leach-Bliley Act (GLBA), the California Financial
+                Information Privacy Act (FIPA), and the Driver's Privacy
+                Protection Act of 1994.
+              </div>
+            </li>
+          </ul>
+          <br />
+
+          <h4>
+            We obtain the categories of personal information listed above from
+            the following categories of sources:
+          </h4>
+          <p></p>
+          <ul>
+            <li>
+              <div>
+                Directly from our Users. For example, from online registration
+                forms that our Users submit to us related to the products and/or
+                services that we offer by and through the Site.
+              </div>
+            </li>
+            <li>
+              <div>
+                Indirectly from our Users. For example, through information we
+                collect from our Users in the course of providing our products
+                and/or services to them.
+              </div>
+            </li>
+            <li>
+              <div>
+                Directly and indirectly from activity on the Site. This includes
+                the type of browser that you use (e.g., Safari, Chrome, Internet
+                Explorer), your IP address, the type of operating system that
+                you use (e.g., Windows or iOS) and the domain name of your
+                Internet Service Provider. In addition, we obtain certain Site
+                usage details and analytics as same are collected automatically
+                by us and our third party partners, such as Google® and Hotjar®.
+              </div>
+            </li>
+            <li>
+              <div>
+                When our Users interact with us on our social media accounts,
+                including commenting on and/or liking our posts.
+              </div>
+            </li>
+            <li>
+              <div>
+                Directly from Users via online registration forms that our Users
+                submit to us in order to enter a promotion or sweepstakes
+                featured on the Site.
+              </div>
+            </li>
+            <li>
+              <div>
+                From third-parties that interact with us in connection with the
+                products and/or services that we offer to our Users. For
+                example, third party entities that assist us in sending direct
+                and electronic mail, removing duplicate information from User
+                lists, analyzing data and providing marketing analysis.
+              </div>
+            </li>
+            <li>
+              <div>From third-party data brokers or aggregators.</div>
+            </li>
+            <li>
+              <div>
+                From publicly availably sources, such as Internet search
+                engines.
+              </div>
+            </li>
+          </ul>
+          <br />
+
+          <h2>Use of Personal Information</h2>
+          <p>
+            We may use or disclose the personal information that we collect for
+            one or more of the following business purposes:
+          </p>
+          <ul>
+            <li>
+              <div>
+                To fulfill or meet the reason for which the information is
+                provided. For example, if you provide us with personal
+                information in connection with your request for a price quote
+                and/or other information regarding the mortgage-related products
+                and/or services featured on the Site, we will use that personal
+                information to better provide you with the requested
+                quote/information.
+              </div>
+            </li>
+            <li>
+              <div>
+                To provide you with information, products or services that you
+                request from us.
+              </div>
+            </li>
+            <li>
+              <div>
+                To create, maintain, customize and secure your account with us.
+              </div>
+            </li>
+            <li>
+              <div>
+                To enable you to enter a sweepstakes or promotion featured on
+                the Site.
+              </div>
+            </li>
+            <li>
+              <div>
+                To provide you with e-mail, direct mail and telemarketing
+                messages concerning certain Company products and/or services, as
+                well as third-party products and/or services, that we believe
+                may be of interest to you.
+              </div>
+            </li>
+            <li>
+              <div>
+                To deliver relevant Site content and advertisements to you and
+                measure or understand the effectiveness of the advertising we
+                serve to you
+              </div>
+            </li>
+            <li>
+              <div>
+                To carry out our obligations and enforce our rights arising from
+                any contracts entered into between you and us, including the
+                Site"s Terms and Conditions.
+              </div>
+            </li>
+            <li>
+              <div>
+                To improve the Site and better present its contents to you.
+              </div>
+            </li>
+            <li>
+              <div>
+                For customer service purposes and to respond to inquiries from
+                you.
+              </div>
+            </li>
+            <li>
+              <div>
+                For testing, research, analysis and product development.
+              </div>
+            </li>
+            <li>
+              <div>
+                As necessary or appropriate to protect our rights, property or
+                safety, and that of our clients or others.
+              </div>
+            </li>
+            <li>
+              <div>
+                To respond to law enforcement requests and as required by
+                applicable law, court order, or governmental regulations.
+              </div>
+            </li>
+            <li>
+              <div>
+                As described to you when collecting your personal information or
+                as otherwise set forth in the CCPA.
+              </div>
+            </li>
+            <li>
+              <div>
+                To evaluate or conduct a merger, divestiture, restructuring,
+                reorganization, dissolution or other sale or transfer of some or
+                all of our assets, whether as a going concern or as part of
+                bankruptcy, liquidation or similar proceeding, in which personal
+                information held by us is among the assets transferred.
+              </div>
+            </li>
+          </ul>
+          <p>
+            We will not collect additional categories of personal information or
+            use the personal information we collected for materially different,
+            unrelated or incompatible purposes without providing you with
+            notice.
+          </p>
+          <br />
+
+          <h2>Sharing Personal Information</h2>
+          <p>
+            We do not share, rent and/or sell your personal information with/to third parties for
+            marketing purposes
+          </p>
+          <br />
+          
+
+          <h2>Your Rights and Choices</h2>
+          <p>
+            The CCPA provides Users (California residents) with specific rights
+            regarding their personal information. This section describes your
+            CCPA rights and explains how to exercise those rights.
+          </p>
+          <br />
+
+          <h2>Opt-Out Rights</h2>
+          <p>
+            You have the right to opt-out of use of your personal
+            information. To exercise your right to opt-out, please
+            submit a verifiable User request to us by either:
+          </p>
+          <ul>
+            <li>
+              <div>
+                Emailing us at:
+                
+<SCRIPT LANGUAGE="JavaScript">
+document.write('<a href=\"mailto:' + user + '@' + site + '\">');
+document.write(user + '@' + site + '</a>');
+</SCRIPT>
+                or
+              </div>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <div>
+                Sending us U.S. mail to: 9921 Carmel Mountain Rd #425, San
+                Diego, CA 92129
+              </div>
+            </li>
+          </ul>
+          <p>
+            We endeavor to act on all opt-out requests as soon as practicable,
+            but in all cases within fifteen (15) days of the receipt of your
+            request.
+          </p>
+          <br />
+
+          <h2>Access to Specific Information and Data Portability Rights</h2>
+          <p>
+            You have the right to request that we disclose certain information
+            to you about our collection and use of your personal information
+            over the past twelve (12) months. Once we receive and confirm your
+            verifiable User request, we will disclose to you:
+          </p>
+          <ul>
+            <li>
+              <div>
+                The categories of personal information we collected about you.
+              </div>
+            </li>
+            <li>
+              <div>
+                The categories of sources for the personal information we
+                collected about you.
+              </div>
+            </li>
+            <li>
+              <div>
+                Our business or commercial purpose for collecting or selling
+                that personal information.
+              </div>
+            </li>
+            <li>
+              <div>
+                The specific pieces of personal information we collected about
+                you (also called a data portability request).
+              </div>
+            </li>
+            <li>
+              <div>
+                If we sold or disclosed your personal information for a business
+                purpose, two separate lists disclosing:
+              </div>
+              <ul>
+                <li>
+                  <div>
+                    sales, identifying the personal information categories that
+                    each category of recipient purchased; and
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    disclosures for a business purpose, identifying the personal
+                    information categories that each category of recipient
+                    obtained.
+                  </div>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <br />
+
+          <h2>Deletion Request Rights</h2>
+          <p>
+            You have the right to request that we delete any of your personal
+            information that we collected from you and retained, subject to
+            certain exceptions. Once we receive and confirm your verifiable User
+            request, we will delete (and direct our service providers to delete)
+            your personal information from our (their) records, unless an
+            exception applies.
+          </p>
+          <p>
+            We may deny your deletion request if retaining the information is
+            necessary for us or our service providers to:
+          </p>
+          <ol>
+            <li>
+              <div>
+                Complete the transaction for which we collected the personal
+                information, provide a good or service that you requested, take
+                actions reasonably anticipated within the context of our ongoing
+                business relationship with you, or otherwise perform our
+                obligations in connection with our contract with you.
+              </div>
+            </li>
+            <li>
+              <div>
+                Detect security incidents, protect against malicious, deceptive,
+                fraudulent or illegal activity, or prosecute those responsible
+                for such activities.
+              </div>
+            </li>
+            <li>
+              <div>
+                Debug products to identify and repair errors that impair
+                existing intended functionality.
+              </div>
+            </li>
+            <li>
+              <div>
+                Exercise free speech rights, ensure the right of another User to
+                exercise their free speech rights or exercise another right
+                provided for by law.
+              </div>
+            </li>
+            <li>
+              <div>
+                Comply with the California Electronic Communications Privacy Act
+                (Cal. Penal Code § 1546 seq.).
+              </div>
+            </li>
+            <li>
+              <div>
+                Engage in public or peer-reviewed scientific, historical, or
+                statistical research in the public interest that adheres to all
+                other applicable ethics and privacy laws, when the information's
+                deletion may likely render impossible or seriously impair the
+                research's achievement, if you previously provided informed
+                consent.
+              </div>
+            </li>
+            <li>
+              <div>
+                Enable solely internal uses that are reasonably aligned with
+                User expectations based on your relationship with us.
+              </div>
+            </li>
+            <li>
+              <div>Comply with a legal obligation.</div>
+            </li>
+            <li>
+              <div>
+                Make other internal and lawful uses of that information that are
+                compatible with the context in which you provided it.
+              </div>
+            </li>
+          </ol>
+          <br />
+
+          <h2>Exercising Access, Data Portability and Deletion Rights</h2>
+          <p>
+            To exercise your access, data portability and/or deletion rights
+            described above, please submit a verifiable User request to us by
+            either:
+          </p>
+          <ul>
+            <li>
+              <div>
+                Emailing us at:
+               
+<SCRIPT LANGUAGE="JavaScript">
+document.write('<a href=\"mailto:' + user + '@' + site + '\">');
+document.write(user + '@' + site + '</a>');
+</SCRIPT>
+                or
+              </div>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <div>
+                Sending us U.S. mail to: 9921 Carmel Mountain Rd #425, San
+                Diego, CA 92129
+              </div>
+            </li>
+          </ul>
+          <p>
+            Only you or a person registered with the California Secretary of
+            State that you authorize to act on your behalf, may make a
+            verifiable User request related to your personal information.
+          </p>
+          <p>
+            You may only make a verifiable User request for access or data
+            portability twice within a 12-month period. The verifiable User
+            request must:
+          </p>
+          <ul>
+            <li>
+              <div>
+                Provide sufficient information that allows us to reasonably
+                verify that you are the person about whom we collected personal
+                information or an authorized representative.
+              </div>
+            </li>
+            <li>
+              <div>
+                Describe your request with sufficient detail that allows us to
+                properly understand, evaluate, and respond to it.
+              </div>
+            </li>
+          </ul>
+          <br />
+          <p>
+            We cannot respond to your request or provide you with personal
+            information if we cannot verify your identity or authority to make
+            the request and confirm that the personal information relates to
+            you. Making a verifiable User request does not require you to create
+            an account with us. We will only use personal information provided
+            in a verifiable User request to verify the requestor's identity or
+            authority to make the request.
+          </p>
+          <br />
+
+          <h2>Response Timing and Format</h2>
+          <p>
+            We endeavor to respond to all verifiable User requests within
+            forty-five (45) days of the receipt thereof. If we require more time
+            (up to ninety (90) days), we will inform you of the reason and
+            extension period in writing. We will deliver our written response by
+            mail or electronically, at your option. Any disclosures we provide
+            will only cover the twelve (12) month period preceding the receipt
+            of your verifiable request. The response we provide will also
+            explain the reasons we cannot comply with a request, if applicable.
+            For data portability requests, we will select a format to provide
+            your personal information that is readily useable and should allow
+            you to transmit the information from one entity to another entity
+            without hindrance.
+          </p>
+          <p>
+            We do not charge a fee to process or respond to your verifiable User
+            request unless it is excessive, repetitive, or manifestly unfounded.
+            If we determine that the request warrants a fee, we will tell you
+            why we made that decision and provide you with a cost estimate
+            before completing your request.
+          </p>
+		  <br />
+
+          <h2>Non-Discrimination</h2>
+          <p>
+            We will not discriminate against you for exercising any of your CCPA
+            rights. Unless permitted by the CCPA, we will not:
+          </p>
+          <ul>
+            <li>
+              <div>Deny you goods or services;</div>
+            </li>
+            <li>
+              <div>
+                Charge you different prices or rates for goods or services,
+                including through granting discounts or other benefits, or
+                imposing penalties;
+              </div>
+            </li>
+            <li>
+              <div>
+                Provide you a different level or quality of goods or services;
+                and/or
+              </div>
+            </li>
+            <li>
+              <div>
+                Suggest that you may receive a different price or rate for goods
+                or services or a different level or quality of goods or
+                services.
+              </div>
+            </li>
+            <li>
+              <div>Changes to this Privacy Notice</div>
+            </li>
+          </ul>
+          <p>
+            We reserve the right to amend this Privacy Notice in our discretion
+            and at any time. When we make changes to this Privacy Notice, we
+            will notify you by email or through a notice on the Site"™s
+            homepage.
+          </p>
+          <br />
+
+          <h2>Contact Information</h2>
+          <p>
+            If you have any questions or comments about this Privacy Notice, our
+            Privacy Policy, the ways in which we collect and use your personal
+            information, your choices and rights regarding such use, or wish to
+            exercise your rights under California law, please do not hesitate to
+            contact us by either:
+          </p>
+          <ul>
+            <li>
+              <div>
+                Emailing us at:
+                
+<SCRIPT LANGUAGE="JavaScript">
+document.write('<a href=\"mailto:' + user + '@' + site + '\">');
+document.write(user + '@' + site + '</a>');
+</SCRIPT>
+                or
+              </div>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <div>
+                Sending us U.S. mail to: 9921 Carmel Mountain Rd #425, San
+                Diego, CA 92129
+              </div>
+            </li>
+          </ul>
+		  <br /><br />
+
+        </div>
+      </div>
+    </form>
+ </body>
+</html>

@@ -1,0 +1,16 @@
+/* ./src/tailwind.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type=radio] {
+    display:none
+}
+
+.selected{
+	@apply bg-yellow-100
+}
+
+.step{
+	display: none;
+}
