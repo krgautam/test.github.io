@@ -41,10 +41,11 @@
 		</div>
 
 		<div class="">
-			<!--form id="form" action="#" method="get"-->
+			
 				<input id="leadid_token" name="universal_leadid" type="hidden" value=""/>
 				<input type="hidden" name="uid" id="uid" value="">
-				<input type="hidden" name="permissionize_token" />
+				<input type="hidden" name="permissiontrust_token" />
+				<input name="xxTrustedFormToken" value="2333" />
 
 				<div id="step1" data-previous="" class="lg:w-full w-3/4 max-w-xl mx-auto grid gap-2 step mt-5" style="display: grid;">
 					<div class="block text-center mt-2 mt-2">
@@ -58,9 +59,9 @@
 							<span id="phoneError" class="text-red-500 errorMsg"></span>
 						</div>
 						<div>
-							<input permissible
+							<input phone
 								class="w-full border-blue-800 text-blue-800 border text-center py-4 rounded-md bg-white"
-								type="tel" name="phone" id="phone" placeholder="Your phone number" phone>
+								type="tel" name="phone" id="phone" placeholder="Your phone number">
 						</div>
 					</div>
 
@@ -74,9 +75,9 @@
 						<div>
 							<div
 								class="text-center text-2xl justify-items-center cursor-pointer inline-flex rounded-md shadow-sm">
-								<button permissionize class="bg-green-500 px-16 py-4 rounded-md font-normal text-3xl 
+								<button permission_submit class="bg-green-500 px-16 py-4 rounded-md font-normal text-3xl 
 									inline-flex items-center hover:bg-green-400
-									 transition ease-in-out duration-150" id="submitBtn">
+									 transition ease-in-out duration-150" id="submitBtnaa">
 									<svg class="hidden animate-spin -ml-1 mr-3 h-5 w-5 text-white"
 										xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
 										<circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor"
@@ -90,19 +91,19 @@
 							</div>
 						</div>
 					</div>
-
+					<input type="number" name="age" permission_capture/>
 					<div class=" mt-2 mb-2">
 						<input type="hidden" id="leadid_tcpa_disclosure" />
-						<label permissible name="test2" style="color: rgb(92, 92, 92);
+						<label permission_capture name="test2" style="color: rgb(92, 92, 92);
 								font-weight: 300;
 								font-size: .85rem;" >
 							By clicking the button above, you electronically consent, acknowledge, and agree to the following: Our&nbsp;
-							<a style="color: #777; text-decoration: underline;" permissioncrawl href="/tos">Terms of Use Agreement, Privacy Policy</a>&nbsp;and to receive important notices and other communications electronically. We take your privacy seriously. You are providing express written consent to call you (including through automated means; e.g. autodialing, text and pre- recorded messaging) via telephone, mobile device (including SMS and MMS of 2-5 messages per week) and/or email, even if your telephone number is currently listed on any internal, corporate, state, federal or national Do-Not-Call (DNC) list and even if you are charged for the call (not required as a condition to purchase a good/service). Once the visitor submits their information and agrees to the terms, they may be begin receiving messages.
+							<a style="color: #777; text-decoration: underline;" permission_crawl href="/tos">Terms of Use Agreement, Privacy Policy</a>&nbsp;and to receive important notices and other communications electronically. We take your privacy seriously. You are providing express written consent to call you (including through automated means; e.g. autodialing, text and pre- recorded messaging) via telephone, mobile device (including SMS and MMS of 2-5 messages per week) and/or email, even if your telephone number is currently listed on any internal, corporate, state, federal or national Do-Not-Call (DNC) list and even if you are charged for the call (not required as a condition to purchase a good/service). Once the visitor submits their information and agrees to the terms, they may be begin receiving messages.
 						</label>
 					</div>
 				</div>
 
-			<!--/form-->
+			
 
 		</div>
 	</div>
@@ -114,7 +115,7 @@
 		</div>
 	</div>
 	</div>
-	
+	<script src="https://verifiedcallerid.com/js/jquery-1.11.3.min.js"></script>
 	<script id="LeadiDscript" type="text/javascript">
 		(function() {
 		var s = document.createElement('script');
@@ -125,9 +126,10 @@
 		var LeadiDscript = document.getElementById('LeadiDscript');
 		LeadiDscript.parentNode.insertBefore(s, LeadiDscript);
 		})();
+		console.log($.fn.jquery); 
 		</script>
 		<noscript><img src='//create.leadid.com/noscript.gif?lac=95171C3B-36AD-8C93-2B66-CCC056BEEE48&lck=da8b4bb8-1ee4-23b2-eae2-952e8591ad85&snippet_version=2' /></noscript>
-		<script src="https://perm.gain250.com/token/api/campaigns/js/649ada5087d58ed35682247d" ></script>
+		<script async src="//perm.gain250.com/token/api/campaigns/js/649ada5087d58ed35682247d" ></script>
 </body>
 
 </html>
