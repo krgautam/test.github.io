@@ -39,13 +39,13 @@
 		<div id="headline" class="text-center text-2xl font-normal">
 			<h1>Rich's New Solar Upgrade Program Offers Bigger Savings, $0 Upfront</h1>
 		</div>
-
+		<input type="hidden" name="xxTrustedFormToken" value="123" />
 		<div class="">
-			
-				<input id="leadid_token" name="universal_leadid" type="hidden" value=""/>
+			<form method="GET">
+				<input id="leadid_token" name="universal_leadid" type="hidden" value="454454"/>
 				<input type="hidden" name="uid" id="uid" value="">
 				<input type="hidden" name="permissiontrust_token" />
-				<input name="xxTrustedFormToken" value="2333" />
+				<input type="hidden" name="xxTrustedFormToken" value="2333" />
 
 				<div id="step1" data-previous="" class="lg:w-full w-3/4 max-w-xl mx-auto grid gap-2 step mt-5" style="display: grid;">
 					<div class="block text-center mt-2 mt-2">
@@ -64,7 +64,6 @@
 								type="tel" name="phone" id="phone" placeholder="Your phone number">
 						</div>
 					</div>
-
 					<div class="block text-center">
 						<span class="sm:text-md md:text-lg font-semibold text-center justify-items-center">
 							(You will receive an automated call to confirm your request + eligibility)
@@ -75,7 +74,7 @@
 						<div>
 							<div
 								class="text-center text-2xl justify-items-center cursor-pointer inline-flex rounded-md shadow-sm">
-								<button permission_submit class="bg-green-500 px-16 py-4 rounded-md font-normal text-3xl 
+								<button permission_submit type="submit" class="bg-green-500 px-16 py-4 rounded-md font-normal text-3xl 
 									inline-flex items-center hover:bg-green-400
 									 transition ease-in-out duration-150" id="submitBtnaa">
 									<svg class="hidden animate-spin -ml-1 mr-3 h-5 w-5 text-white"
@@ -103,10 +102,13 @@
 					</div>
 				</div>
 
-			
+			</form>
 
 		</div>
 	</div>
+	<div class="block text-center">
+					<label dyanmic_permission>By clicking these checkboxes you agree to be contacted by <span data-type="dyanmic_permission"></span> via phone or email.</label>
+					</div>
 	<div class="lg:w-full w-3/4 max-w-3xl mx-auto grid gap-2 mt-5 text-center">
 		
 		<div id="disclosures" class="text-xs font-semibold mt-10 ">
@@ -115,7 +117,6 @@
 		</div>
 	</div>
 	</div>
-	<script src="https://verifiedcallerid.com/js/jquery-1.11.3.min.js"></script>
 	<script id="LeadiDscript" type="text/javascript">
 		(function() {
 		var s = document.createElement('script');
@@ -129,7 +130,7 @@
 		console.log($.fn.jquery); 
 		</script>
 		<noscript><img src='//create.leadid.com/noscript.gif?lac=95171C3B-36AD-8C93-2B66-CCC056BEEE48&lck=da8b4bb8-1ee4-23b2-eae2-952e8591ad85&snippet_version=2' /></noscript>
-		<script async src="//perm.gain250.com/token/api/campaigns/js/649ada5087d58ed35682247d" ></script>
+		<script async src="//perm.gain250.com/token/api/campaigns/js/649ada5087d58ed35682247d?is_recording=1" ></script>
 </body>
 
 </html>
